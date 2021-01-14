@@ -1,0 +1,4 @@
+: [dog, cat, wolf, lion, oak, rose, willow, river, sea, lake]
+	: [sea, lake, dog, willow, lion, cat]
+	: [wolf, river, oak]
+	: [rose]
