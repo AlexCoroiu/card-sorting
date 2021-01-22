@@ -3,11 +3,15 @@
 Created on Wed Dec 16 15:31:27 2020
 
 @author: Alexandra Coroiu
+
+This module tests the functionality of the data_manager.
+
 """
 
 import data_manager
 
 #automatic test
+#test correctly reading cards from a file
 def test_open_cards():
     print('\nTEST open_cards')
     #expected contains no duplicates
@@ -17,32 +21,30 @@ def test_open_cards():
     actual_tree_cards = actual_tree.get_cards()
     return expected == actual and expected == actual_tree_cards
 
-"""
-manual test
-please check the output file to see if it has the desired structure
-"""
+
+#manual tests
+#after running please check the output file to see if it has the desired structure
+
+#test the creation and writing to a file of the simple results
 def test_save_results():
     print('\nTEST save_results')
     file = 'test_results_file.txt'
     data_manager.save_results(file)  
-    
+
+#test the creationg and writing to a file of the matrix results   
 def test_save_matrix():
     print('\nTEST save_matrix')
     file = 'test_matrix_file.csv'
     data_manager.save_matrix(file)
-    
-"""
-RUNNING THE TESTS
-"""
-    
+
+#execute the test function that reads cards from the input file         
 #test open_cards 
 if test_open_cards():
     print('==> open_cards PASSED: all cards were succesfully read')
 else:
     print('==> open_cards FAILED')
 
-#creating a test tree
-
+#creating a test data tree
 test_cards,test_tree = data_manager.open_cards('test_cards_file.csv')
 
 food = ['cheese','pineapple','kimchi','seaweed','tomato']
@@ -114,8 +116,11 @@ food_tree.set_children(children_food)
 children_food_fruit = [food_fruit_sweet_tree,food_fruit_other_tree]
 food_fruit_tree.set_children(children_food_fruit)
 
+#execute the test functions that write results to output files    
+#test save_results
 test_save_results()
 print('-> please inspect test_results_file.txt')
 
+#test save_matrix
 test_save_matrix()
 print('-> please inspect test_matrix_file.txt')

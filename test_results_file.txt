@@ -3,7 +3,7 @@
 		: [pineapple, tomato]
 			: [pineapple]
 			: [tomato]
-		: [kimchi, cheese, seaweed]
+		: [kimchi, seaweed, cheese]
 	: [pink, blue, maroon]
 	: [blanket, towel, pillow]
 	: [water]

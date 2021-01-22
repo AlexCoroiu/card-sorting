@@ -1,3 +1,6 @@
 Select/De-select an unsorted card by clicking on it.
 Once a card is selected, put it in a category by clicking on the category tab.
-When there are no more unsorted cards, you can click next to finish.
+When there are no more unsorted cards, you can click the category tabs to enter categories.
+Sort categories into subcategories the same way you sorted your cards before.
+When you're done with a category click back.
+When you're done with everything, you can click next to finish.
