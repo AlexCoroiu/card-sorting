@@ -37,7 +37,7 @@ Open your prefered IDE and run it from there, or run it from the command line:
 
 Make sure that the run enviornment you use has the correct installation packages needed for this program. 
 
-## Addiitonal notes:
+## Additional notes:
 
 The .zip of the program also example output files: matrix_file.csv and results_file.txt.
 These files get updated after you run and complete a card sorting experiment.
