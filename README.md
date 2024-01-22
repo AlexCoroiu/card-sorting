@@ -1,9 +1,8 @@
-Card Sorting
-@Alexandra Coroiu
+# Card Sorting
 
 -------------------------------------------------------------------------------------------------------------
 
-INSTALLATION for the program:
+## INSTALLATION for the program:
 
 Make sure you have the following packages installed on your computer in order to be able to use this program. 
 Links are provided from where you can download the needed packages. 
@@ -27,7 +26,7 @@ This category includes:
 
 -------------------------------------------------------------------------------------------------------------
 
-RUNNING the program:
+## RUNNING the program:
 
 In addition to the main python files listed above, you need an input file to run the program. 
 This file needs to have a csv format and has to be named cards_file.csv. 
@@ -44,7 +43,7 @@ Make sure that the run enviornment you use has the correct installation packages
 
 -------------------------------------------------------------------------------------------------------------
 
-Addiitonal notes:
+## Addiitonal notes:
 
 The .zip of the program also example output files: matrix_file.csv and results_file.txt.
 These files get updated after you run and complete a card sorting experiment.
@@ -59,7 +58,7 @@ Run the test through your IDE or the command line ("python test_data_manager.py"
 The test output is saved in test_matrix_file.csv and test_results_file.txt. 
 This test checks the reading and writing to files of the tree data structure used in the program.
 
-Additioanlly, the .zip also contains the design_document.pdf which explains the program in more detail.
+Lastly, the .zip also contains the design_document.pdf which explains the program in more detail.
 
 
 
