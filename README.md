@@ -1,7 +1,5 @@
 # Card Sorting
 
--------------------------------------------------------------------------------------------------------------
-
 ## INSTALLATION for the program:
 
 Make sure you have the following packages installed on your computer in order to be able to use this program. 
@@ -24,8 +22,6 @@ This category includes:
 - UI_objects.py
 - instructions.txt
 
--------------------------------------------------------------------------------------------------------------
-
 ## RUNNING the program:
 
 In addition to the main python files listed above, you need an input file to run the program. 
@@ -40,8 +36,6 @@ Open your prefered IDE and run it from there, or run it from the command line:
 - run the following command: "python card_sorting.py"
 
 Make sure that the run enviornment you use has the correct installation packages needed for this program. 
-
--------------------------------------------------------------------------------------------------------------
 
 ## Addiitonal notes:
 
